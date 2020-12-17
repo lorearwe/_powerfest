@@ -11,7 +11,6 @@ particlesJS("particles-js", {
     },
     "color": {
       "value": ["#8af743","#ff2cb4","#fafb00"],
-      
     },
     "size": {
       "value": 3,

@@ -2,13 +2,14 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - powerfest</title>
+  <title>Powerfest</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
-  <link rel='stylesheet' href='style.css'>
+  <link rel='stylesheet' href='css/style.css'>
+  <link rel='stylesheet' href='css/mainmenu.css'>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -30,21 +31,18 @@
 
     <!--
     Some spans to act as a hamburger.
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
     -->
     <span></span>
     <span></span>
     <span></span>
     <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
+    Menu has to be inside of the button
+      -->
     <ul id="menu" >
-      <a href="#"><li class="rotate-text">Artist</li></a>
-      <a href="#"><li class="rotate-text">Timetable</li></a>
-      <a href="#"><li class="rotate-text">Location</li></a>
-      <a href="#"><li class="rotate-text">About</li></a>
+      <a href="#"><li>About</li></a>
+      <a href="#"><li>Location</li></a>
+      <a href="#"><li>Timetable</li></a>
+      <a href="#"><li>Artists</li></a>
     </ul>
   </div>
 </nav>
@@ -56,7 +54,7 @@
   <h1>_Powerfest </h1>
 <button  type="button" class="btn-pw"> Get Tickets </button>
 <!------------------------------>
-<div class="count-particles"> </div> </div>
+
 
 
 <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->

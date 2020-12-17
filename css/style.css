@@ -1,0 +1,66 @@
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+body
+{
+  margin: 0;
+  padding: 0;
+  /* make it look decent enough */
+  background: #232323;
+  color: #cdcdcd;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.btn-pw:hover{
+  background-color: #232323;
+  font-weight:bold;
+  transition: 0.5s ease;
+  color:#00E061;
+  border: 2px solid #00E061;
+}
+
+#lang{
+  display:inline-block;
+  position: relative;
+  left: 120px;
+  top: 25px;
+ }
+h1{
+  position: relative;
+  top: 70px;
+  left: 125px;
+}
+ /*
+h1 {
+ text-decoration:none;
+ border:0;
+ width : 162px;
+ height : 113px;
+ margin : 0;
+ padding : 0;
+ background : url(https://raw.githubusercontent.com/shittyjobs/bleh/main/Untitled-1-01.svg) no-repeat 0 0;
+}
+  h1 a {
+ display : block;
+ height : 113px;
+ text-indent : -9999px;
+}
+*/
+/* ----- PARTICLES.JS -----*/
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
