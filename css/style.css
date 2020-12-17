@@ -1,13 +1,15 @@
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
+ .ir{
+	background-color:transparent;
+ 	border:0;
+ 	overflow:hidden;
+ 	*text-indent: -9999px;
+ }
+ .ir:before{
+	content:"";
+	display:block;
+	Width:0;
+	height: 150%;
+}
 
 body
 {
@@ -20,7 +22,6 @@ body
 }
 header{
   width: 100%;
-  height: 60px;
   margin: 5px;
 
 }
@@ -55,39 +56,33 @@ div{ margin:0;
   width: 50px;
 }
 
-#en{
-  font-weight: bold;
-  font-style: italic;
+#en
+{
+	  font-weight: bold;
+	  font-style: italic;
 }
-#lang{
-  font-size: 12px;
-  display: flex;
-  border: 1px solid green;
-  margin-left: 3%;
+#lang
+{
+	  font-size: 12px;
+	  display: flex;
+	  border: 1px solid green;
+	  margin-left: 3%;
+	width: 200px;
  }
- #lang div{
-   text-align: center;
-   width: 35px;
+ #lang div
+{
+	   text-align: center;
+	   width: 35px;
  }
- #logo{
- display: block;
- background-image: url("img/logopwrf.svg");
- background-repeat: no-repeat;
- width: 79px;
- height: 73px;
+ #logo
+{
+	 display: block;
+	 background-image: url("../img/logopwrf.svg");
+	 background-repeat: no-repeat;
+	 width: 35px;
+	 height: 33px;
  }
- .ir{
- 	background-color:transparent;
- 	border:0;
- 	overflow:hidden;
- 	*text-indent: -9999px;
- }
- .ir:before{
-	content:"";
-	display:block;
-	Width:0;
-	height: 150%;
-}
+
 .flex{
   display:flex;
   flex-wrap: wrap;
