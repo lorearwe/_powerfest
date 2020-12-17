@@ -30,7 +30,6 @@ div#navegacion{
   width:100%;
 }
 
- #lang, h1 { width: 200px;}
 .btn-pw{
   /*position:relative;
   right: 25px;
@@ -69,6 +68,7 @@ div{ margin:0;
 	  display: flex;
 	  border: 1px solid green;
 	  margin-left: 3%;
+	width: 200px;
  }
  #lang div
 {
