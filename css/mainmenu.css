@@ -1,11 +1,7 @@
 
 #menuToggle
 {
-  /*display: block;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  margin: 25px 0 0 25px;*/
+  margin-top: 10px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -15,7 +11,7 @@
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: #101010;
   transition: color 0.3s ease;
 }
 
@@ -129,14 +125,14 @@ position: absolute;
   -o-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  border-bottom: 2px solid #232323;
+  border-bottom: 2px solid #101010;
   transition: color 1s ease-out, border-color 1s ease-out;
 }
 
 
 #menu li:hover{
-  color:#8af743;
-  border-bottom: 2px solid #8af743;
+  color:#fafb00;
+  border-bottom: 2px solid #fafb00;
 
 }
 /*

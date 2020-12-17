@@ -1,29 +1,34 @@
- .ir{
-	background-color:transparent;
- 	border:0;
- 	overflow:hidden;
- 	*text-indent: -9999px;
- }
- .ir:before{
-	content:"";
-	display:block;
-	Width:0;
-	height: 150%;
+.ir{
+  background-color:transparent;
+  border:0;
+  overflow:hidden;
+  *text-indent: -9999px;
 }
-
+.ir:before{
+  content:"";
+  display:block;
+  Width:0;
+  height: 150%;
+}
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+}
+ /* ---  Styles --- */
 body
 {
+  background: #101010;
+  color: #eee;
+  font-family: 'Work Sans', sans-serif;
+}
+#wrap{
+  with:100%;
   margin: 0;
   padding: 0;
-  /* make it look decent enough */
-  background: #232323;
-  color: #cdcdcd;
-  font-family: 'Work Sans', sans-serif;
 }
 header{
   width: 100%;
-  margin: 5px;
-
+  margin: 5px auto;
 }
 div#navegacion{
   width:100%;
@@ -34,23 +39,23 @@ div#navegacion{
   right: 25px;
   left:70%;
   top: -70px;*/
-  border: 0;
-  padding: 5px 100px;
-  font-size: 24px;
-  color: #232323;
+  align-self: flex-start;
+  margin-left: auto;
+  margin-right: 5px;
+  padding: 3px 50px;
+  font-size: 16px;
+  color: #101010;
   background-color: #00E061;
   border-radius:4px;
   border: 2px solid #00E061;
 }
 .btn-pw:hover{
-  background-color: #232323;
+  background-color: #101010;
   font-weight: bold;
   transition: 0.5s ease;
   color:#00E061;
   border: 2px solid #00E061;
 }
-div{ margin:0;
-  border:1px solid blue;}
 
 #margen{
   width: 50px;
@@ -58,36 +63,40 @@ div{ margin:0;
 
 #en
 {
-	  font-weight: bold;
-	  font-style: italic;
+  font-weight: bold;
+  font-style: italic;
 }
 #lang
 {
-	  font-size: 12px;
-	  display: flex;
-	  border: 1px solid green;
-	  margin-left: 3%;
-	width: 200px;
- }
- #lang div
+  font-size: 12px;
+  display: flex;
+  margin-left: 3%;
+  width: 200px;
+}
+#lang div
 {
-	   text-align: center;
-	   width: 35px;
- }
- #logo
+  text-align: center;
+  width: 35px;
+}
+#logo
 {
-	 display: block;
-	 background-image: url("../img/logopwrf.svg");
-	 background-repeat: no-repeat;
-	 width: 35px;
-	 height: 33px;
- }
+  display: block;
+  background-image: url("../img/logopwrf.svg");
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 33px;
+}
 
-.flex{
-  display:flex;
-  flex-wrap: wrap;
+#particles-js{
+  height:99%;
+  position:absolute;
 }
 canvas {
   display: block;
   vertical-align: bottom;
+}
+main{
+  border:1px solid yellow;
+  margin: 400px auto 0;
+  width:80%;
 }
