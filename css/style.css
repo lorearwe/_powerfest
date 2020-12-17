@@ -28,7 +28,6 @@ div#navegacion{
   width:100%;
 }
 
- #lang, h1 { width: 200px;}
 .btn-pw{
   /*position:relative;
   right: 25px;
@@ -51,15 +50,15 @@ div#navegacion{
 }
 div{ margin:0;
   border:1px solid blue;}
-#navegacion, h1{ border:1px dashed red;
-margin:0;}
+
 #margen{
   width: 50px;
 }
 
 #en{
   font-weight: bold;
-  font-style: italic;}
+  font-style: italic;
+}
 #lang{
   font-size: 12px;
   display: flex;
@@ -71,7 +70,7 @@ margin:0;}
    width: 35px;
  }
  #logo{
-   display: block;
+ display: block;
  background-image: url("img/logopwrf.svg");
  background-repeat: no-repeat;
  width: 79px;
