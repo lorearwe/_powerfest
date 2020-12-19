@@ -1,1 +1,9 @@
-<svg id="ehishvsgbckp1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 78.670000 72.790000" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><defs><filter id="ehishvsgbckp2-filter" x="-400%" width="600%" y="-400%" height="600%"><feColorMatrix id="ehishvsgbckp2-filter-hue-rotate-0" type="hueRotate" values="0" result="result"/></filter></defs><g id="ehishvsgbckp2" filter="url(#ehishvsgbckp2-filter)"><rect id="ehishvsgbckp3" width="17.900000" height="72.790000" rx="0" ry="0" transform="matrix(1 0 0 1 60.77000000000000 0)" fill="rgb(255,44,180)" stroke="none" stroke-width="1"/><rect id="ehishvsgbckp4" width="17.900000" height="72.790000" rx="0" ry="0" fill="rgb(255,44,180)" stroke="none" stroke-width="1"/><rect id="ehishvsgbckp5" width="17.900000" height="42.220000" rx="0" ry="0" transform="matrix(1 0 0 1 30.38000000000000 30.57000000000000)" fill="rgb(255,44,180)" stroke="none" stroke-width="1"/></g></svg>
+<svg id="ehishvsgbckp1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 78.670000 72.790000" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<defs><filter id="ehishvsgbckp2-filter" x="-400%" width="600%" y="-400%" height="600%">
+<feColorMatrix id="ehishvsgbckp2-filter-hue-rotate-0" type="hueRotate" values="0" result="result"/>
+</filter></defs>
+<g id="ehishvsgbckp2" filter="url(#ehishvsgbckp2-filter)"><rect id="ehishvsgbckp3" width="17.900000" height="72.790000" rx="0" ry="0" transform="matrix(1 0 0 1 60.77000000000000 0)" fill="rgb(255,44,180)" stroke="none" stroke-width="1"/>
+<rect id="ehishvsgbckp4" width="17.900000" height="72.790000" rx="0" ry="0" fill="rgb(255,44,180)" stroke="none" stroke-width="1"/>
+<rect id="ehishvsgbckp5" width="17.900000" height="42.220000" rx="0" ry="0" transform="matrix(1 0 0 1 30.38000000000000 30.57000000000000)" fill="rgb(255,44,180)" stroke="none" stroke-width="1"/>
+</g>
+</svg>
