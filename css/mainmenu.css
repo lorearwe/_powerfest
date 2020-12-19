@@ -100,16 +100,17 @@
 position: absolute;
  width:40px;
  height:350px;
- left: -22px;
+ left: -26px;
  top:-20px;
  margin-top: 24px;
- /*background: #ededed;*/
+ /* background: #ededed; */
  list-style-type: none;
  -webkit-font-smoothing: antialiased;
  /* to stop flickering of text in safari */
  transform-origin: 0% 0%;
  transform: translate(0, -200%);
  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ z-index:2;
 }
 #menu li
 {

@@ -84,12 +84,12 @@ header{
   background-image: url("../img/logo_large.svg");
   background-repeat: no-repeat;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 60px;
   height: 60px;
 }
 
 #particles-js{
-  height:99%;
+  height:170%;
   width: 100%;
   position: absolute;
   z-index: 2;
@@ -103,10 +103,39 @@ header{
   }
 
 main{
-  margin: 40px;
+  margin: 60px;
   padding:0 !important;
 }
 
+#artistas{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 900;
+  font-size: 32px;
+}
+.spreadItems{
+  margin: 50px;
+  justify-content: space-between;
+}
+.spreadItems h3{
+  width: 45%;
+}
+.spreadItems h3:nth-child(1){
+  text-align:right;
+}
+
+footer{
+  text-align:center;
+  font-size: 14px;
+  color: #555;
+}
+footer a{
+  color: #ff2cb4;
+}
+footer a:hover{
+  background-color: #ff2cb4;
+  color:#000;
+}
 
 @media screen and (max-width: 699px){
 #logo
@@ -124,5 +153,9 @@ main{
 .btn-pw{
   padding: 2px 35px;
   font-size: 12px;
+}
+h2, h3, #artistas{
+  text-align:center;
+  font-size: 18px;
 }
 }
