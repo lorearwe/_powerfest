@@ -15,6 +15,10 @@
   flex-wrap: wrap;
 }
  /* ---  Styles --- */
+ a, a:hover {
+   color:inherit;
+ }
+
 body
 {
   background: #101010;
@@ -22,7 +26,7 @@ body
   font-family: 'Work Sans', sans-serif;
 }
 #wrap{
-  with:100%;
+  omax-width:1200px;
   margin: 0;
   padding: 0;
 }
@@ -30,23 +34,17 @@ header{
   width: 100%;
   margin: 5px auto;
 }
-div#navegacion{
-  width:100%;
-}
 
 .btn-pw{
-  /*position:relative;
-  right: 25px;
-  left:70%;
-  top: -70px;*/
-  align-self: flex-start;
+  align-self: flex-end;
   margin-left: auto;
   margin-right: 5px;
-  padding: 3px 50px;
+  padding: 3px 5%;
   font-size: 16px;
   color: #101010;
   background-color: #00E061;
   border-radius:4px;
+  z-index:3;
   border: 2px solid #00E061;
 }
 .btn-pw:hover{
@@ -70,8 +68,10 @@ div#navegacion{
 {
   font-size: 12px;
   display: flex;
+  margin-top: 10px;
   margin-left: 3%;
-  width: 200px;
+  width: 30%;
+  z-index:3;
 }
 #lang div
 {
@@ -81,22 +81,48 @@ div#navegacion{
 #logo
 {
   display: block;
-  background-image: url("../img/logopwrf.svg");
+  background-image: url("../img/logo_large.svg");
   background-repeat: no-repeat;
-  width: 35px;
-  height: 33px;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 60px;
 }
 
 #particles-js{
   height:99%;
-  position:absolute;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
 }
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
+
+.carousel{
+  z-index: -4;
+  /*width: 95%;
+  margin-right: 25px;*/
+  padding:0;
+  }
+
 main{
   border:1px solid yellow;
-  margin: 400px auto 0;
-  width:80%;
+  margin: 40px;
+  padding:0 !important;
+}
+
+@media screen and (max-width: 699px){
+#logo
+{
+  display: block;
+  background-image: url("../img/logopwrf.svg");
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 33px;
+  margin:0 auto;
+  position:absolute;
+  top: 40px;
+  left: 45%;
+}
+.btn-pw{
+  padding: 2px 35px;
+  font-size: 12px;
+}
 }
