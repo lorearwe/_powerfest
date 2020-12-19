@@ -3,19 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 78.67 72.79" style="enable-background:new 0 0 78.67 72.79;" xml:space="preserve">
 <style type="text/css">
-	.st0{;
-	  animation: col 30s ease infinite;
-	}
-	@keyframes col {
-	0%,33% {fill:#8af743}
-34%,65% {fill:#fafb00}
-66%,100% {fill:#ff2cb4}
-
-	}
+	.st0{fill:#FF2CB4;}
 </style>
 <g>
-	<rect x="60.77" y="0" class="st0" width="17.9px" height="72.79px"/>
-	<rect x="0" y="0" class="st0" width="17.9px" height="72.79px"/>
-	<rect x="30.38" y="30.57" class="st0" width="17.9px" height="42.22px"/>
+	<rect x="60.77" y="0" class="st0" width="17.9" height="72.79"/>
+	<rect x="0" y="0" class="st0" width="17.9" height="72.79"/>
+	<rect x="30.38" y="30.57" class="st0" width="17.9" height="42.22"/>
 </g>
 </svg>
