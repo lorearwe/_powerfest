@@ -146,8 +146,9 @@ footer a:hover{
   width: 35px;
   height: 33px;
   margin:0 auto;
+  
   position:absolute;
-  top: 40px;
+  top: 100px;
   left: 45%;
 }
 .btn-pw{
