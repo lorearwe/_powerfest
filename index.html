@@ -1,140 +1,124 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Powerfest</title>
+  <title>_Powerfest</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="_Powerfest es una campaña ficticia realizada como parte de una actividad académica ESAPA 2020">
+  <meta name="author" content="Lore Arguelles">
+  <meta property="og:image" content="img/capture.png">
+  <meta property="og:description" content="_Powerfest es una campaña ficticia realizada como parte de una actividad académica ESAPA 2020">
+  <meta property="og:title" content="_Powerfest">
+  <meta property="twitter:title" content="_Powerfest">
+
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;700;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico"/>
+
   <link rel='stylesheet' href='css/style.css'>
   <link rel='stylesheet' href='css/mainmenu.css'>
 </head>
 <body>
-  <div id="wrap">
+  <div id="container">
+    <!-- setting up the particles -->
+    <div id="particles-js"></div>
 
+    <header>
 
-<!-- partial:index.partial.html -->
-<div id="particles-js"></div>
-
-  <header>
-
-      <div class="col-md-12 flex">
-
-    <!-- NAVEGACIóN -->
-    <!--    Made by Erik Terwan    -->
-    <!--   24th of November 2015   -->
-    <!--        MIT License        -->
-      <div id="navegacion">
-        <nav role="navigation">
+      <div class="flex">
+        <div id="navegacion">
+          <nav role="navigation">
+            <!--   Original code by Erik Terwan    -->
+            <!-- Modified by lorearwe.codepen.io   -->
+            <!--        MIT License                -->
             <div id="menuToggle">
-                <!--
-                A fake / hidden checkbox is used as click reciever
-              -->
               <input type="checkbox" />
-              <!--
-              Some spans to act as a hamburger.
-            -->
-            <span></span>
-            <span></span>
-            <span></span>
-            <!--
-            Menu has to be inside of the button
-          -->
-          <ul id="menu" >
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Location</li></a>
-            <a href="#"><li>Timetable</li></a>
-            <a href="#"><li>Artists</li></a>
-          </ul>
-        </div>
-      </nav>
-    </div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Location</li></a>
+                <a href="#"><li>Timetable</li></a>
+                <a href="#"><li>Artists</li></a>
+              </ul>
+            </div>
+          </nav>
+        </div>  <!--       end of hamburger       -->
+        <div id="lang">
+          <a href="#">
+            <span id="en" onclick="changeStyle()">EN</span></a>
+            /
+            <a href="#">
+              <span id="es" onclick="changeS()">ES</span></a>
+            </div>
+            <button  type="button" class="btn btn-pw"> Get Tickets </button>
+          </div>
+          <h1> <a id="logo" class="ir" href="#">_Powerfest</a></h1>
+
+        </header>
+
+        <main>
+
+          <section id="artistas" class="sub"> <!--       event info (artist and date)     -->
+            <p>
+              BILLIE EILISH  ·  SOLANGE  ·  SZA  ·  THE INTERNET TIRZAH  ·  MICA LEVI  ·  JESSY  ·  LANZA  ·  HOLLY HERNDON  ·
+              JENNY HVAL  ·  MOLAR2  ·  ST. VINCENT  ·  KELELA  ·  HAIM  ·  PHOEBE BRIDGERS  ·  700 BLISS ·  LITTLE SIMZ ·
+              OKKRE  ·  NONAME  ·  LAUREL HALO  ·  GAZELLE TWIN
+            </p>
+            <div class="flex spreadItems">
+              <h3>20 / 21 August 2021</h3>
+              <h3>Asturias</h3>
+            </div>
+          </section>  <!--       end of event info       -->
+
+          <section>
+            <!--     Bootstrap carousel     -->
+            <div id="carouselArtist" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/kelela.jpg" alt="singer Kelela black and white portrait">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/billie-eilish.jpg" alt="singer Billie Eilish black and white portrait">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/holly-herndon.jpg" alt="artist Holly Herndon experimental photography">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/keiyaa.jpg" alt="singer Keiyaa black and white portrait">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/mica-levi.jpg" alt="singer Mica Levi black and white portrait">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/the-internet.jpg" alt="music group The Internet black and white portrait">
+                </div>
+              </div>
+            </div>
+          </section>  <!--       end of carousel       -->
+
+        </main>
+
+        <footer>
+          <p> <em>_POWERFEST</em> is a fictional event created as a school assignment.</p>
+          <p>2020 - Design by  <a href="https://www.behance.net/seliaparda" target="_blank">Selia Parda</a> & <a href="https://www.behance.net/lorearguelles" target="_blank">Lore Argüelles</a></p>
+        </footer>
+
+      </div> <!--       end of container       -->
 
 
-  <div id="margen">
-  </div>
-  <div id="lang">
-   <a href="#">  <div id="en" onclick="changeStyle()">EN</div></a> / <a href="#">
-     <div id="es" onclick="changeS()">ES</div></a>
-  </div>
-  <button  type="button" class="btn btn-pw"> Get Tickets </button>
-    </div>
-    <h1> <a id="logo" class="ir" href="#">_Powerfest </a></h1>
-</header>
+      <!--       SCRIPTS       -->
 
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- <script src="https://cdnjs.com/libraries/bodymovin" type="text/javascript"></script> -->
+      <script src="js/script.js"></script>
+      <script src="js/particles.js"></script>
 
-<!------------ CAROUSEL ---------------->
-<main class>
-  <div id="artistas">
-  <span class="sub"> BILLIE EILISH </span> ·
-  <span class="sub"> SOLANGE </span> ·
-  <span class="sub"> SZA </span> ·
-  <span class="sub"> THE INTERNET TIRZAH </span> ·
-  <span class="sub"> MICA LEVI </span> ·
-  <span class="sub"> JESSY </span> ·
-  <span class="sub"> LANZA </span> ·
-  <span class="sub"> HOLLY HERNDON </span>  ·
-  <span class="sub"> JENNY HVAL </span> ·
-  <span class="sub"> MOLAR2 </span> ·
-  <span class="sub"> ST. VINCENT </span> ·
-  <span class="sub"> KELELA </span> ·
-  <span class="sub"> HAIM </span> ·
-  <span class="sub"> PHOEBE BRIDGERS </span> ·
-  <span class="sub"> 700 BLISS </span> ·
-  <span class="sub"> LITTLE SIMZ </span> ·
-  <span class="sub"> OKKRE </span> ·
-  <span class="sub"> NONAME </span> ·
-  <span class="sub"> LAUREL HALO </span> ·
-  <span class="sub"> GAZELLE TWIN </span>
-</div>
-<div class="flex spreadItems">
-  <h3>20 / 21 August 2021</h3>
-  <h3>Asturias</h3>
-</div>
-
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/kelela.jpg" alt="singer Kelela black and white portrait">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/billie-eilish.jpg" alt="singer Billie Eilish black and white portrait">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/holly-herndon.jpg" alt="artist Holly Herndon experimental photography">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/keiyaa.jpg" alt="singer Keiyaa black and white portrait">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/mica-levi.jpg" alt="singer Mica Levi black and white portrait">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/the-internet.jpg" alt="music group The Internet black and white portrait">
-    </div>
-  </div>
-</div>
-
-</main>
-<footer>
-<p> <em>_POWERFEST</em> is a fictional event created as a school assignment.</p>
-<p>Design by <a href="https://www.behance.net/seliaparda" target="_blank">Selia Parda</a> & <a href="https://www.behance.net/lorearguelles" target="_blank">Lore Argüelles</a></p>
-</footer>
-
-</div>
-
-<!------------SCRIPTS------------------>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.com/libraries/bodymovin" type="text/javascript"></script>
-  </script>
-  <script src="js/script.js"></script>
-  <script src="js/particles.js"></script>
-
-</body>
-</html>
+    </body>
+    </html>

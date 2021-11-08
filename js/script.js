@@ -1,5 +1,5 @@
 
-/* resaltar idioma */
+/* language highlight */
 
 function changeStyle() {
   var x = document.getElementById('en');
